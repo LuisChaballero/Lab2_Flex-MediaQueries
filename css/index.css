@@ -23,6 +23,7 @@
   /*display: flex;
     justify-content: center;*/
     text-align: center; 
+    margin-top: 10px;
 
   }
 
@@ -35,6 +36,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-bottom: 5px;
   }
   
   .menu{
@@ -45,12 +47,33 @@
     color: white;
   }
 
+  main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .product{
+    border: 1px outset lightgrey;
+    border-radius: 1%;
+    text-align: center;
+    padding: 5px;
+    margin: 3px 15px;
+
+  }
+
+  .hidden{
+    display: none;
+  }
+
+
+
+
 
 
 
   @media (min-width: 521px) and (max-width: 700px){
-    header {
-      
+    header {    
       display: flex;
       flex-direction: row;
       justify-content: center; 
@@ -58,7 +81,7 @@
 
     .logo {
       margin-right: 15%; 
-      padding-top: 15px;      
+      padding-top: 5px;      
     }
 
     header > h1 {
@@ -106,12 +129,7 @@
 
     .hamburger{
       display: none;
-    }
-
-   
-  
-    .hamburger{
       color: white;
     }
-    
+
   } 
